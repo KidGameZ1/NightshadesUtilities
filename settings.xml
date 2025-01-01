@@ -33,11 +33,4 @@
             <password>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</password>
         </server>
     </servers>
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub OWNER Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/KidGameZ1/NightshadesUtilities</url>
-        </repository>
-    </distributionManagement>
 </settings>
