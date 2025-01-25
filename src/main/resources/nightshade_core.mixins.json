@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.nightshade.nightshade_core.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "nightshade_core.refmap.json",
+  "mixins": [
+    "AccessorServerPlayer",
+    "AttributeMixin",
+    "EntityMixin",
+    "PlayerMixin",
+    "ServerPlayerMixin"
+  ],
+  "client": [
+    "AccessorEntityRenderer",
+    "EntityRendererMixin",
+    "PlayerRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
